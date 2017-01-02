@@ -1,0 +1,39 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{A6FB41D6-B508-434A-A5C6-D16DFE3C3944}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{0A9A5935-D4B8-4686-80A9-817B3D69461B}"
+	ProjectSection(SolutionItems) = preProject
+		global.json = global.json
+	EndProjectSection
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "WebApplication8", "src\WebApplication8\WebApplication8.xproj", "{40BC4E88-AA6A-4335-987D-7689EE9B6099}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "ClassLibrary1", "src\ClassLibrary1\ClassLibrary1.xproj", "{13773E36-4E7D-45E8-8D08-CB54C222D495}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{40BC4E88-AA6A-4335-987D-7689EE9B6099}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{40BC4E88-AA6A-4335-987D-7689EE9B6099}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{40BC4E88-AA6A-4335-987D-7689EE9B6099}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{40BC4E88-AA6A-4335-987D-7689EE9B6099}.Release|Any CPU.Build.0 = Release|Any CPU
+		{13773E36-4E7D-45E8-8D08-CB54C222D495}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{13773E36-4E7D-45E8-8D08-CB54C222D495}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{13773E36-4E7D-45E8-8D08-CB54C222D495}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{13773E36-4E7D-45E8-8D08-CB54C222D495}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{40BC4E88-AA6A-4335-987D-7689EE9B6099} = {A6FB41D6-B508-434A-A5C6-D16DFE3C3944}
+		{13773E36-4E7D-45E8-8D08-CB54C222D495} = {A6FB41D6-B508-434A-A5C6-D16DFE3C3944}
+	EndGlobalSection
+EndGlobal
